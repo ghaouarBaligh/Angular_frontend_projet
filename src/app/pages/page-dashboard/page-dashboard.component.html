@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<div class="main-container">
+    <div class="row" style="min-height: 600px; flex-wrap: inherit;">
+        <div class="card cil-md-2 mr-2">
+           <div>
+            <h4>gestion de stock V2.0</h4>
+           </div>
+           <div>
+                <app-menu></app-menu>
+           </div>
+        </div>
+        <div class="card col-md-10 pl-0 pr-0 background" style="border: none;">
+            <div class="col pl-0 pr-0 d-flex flex-column justify-content-between">
+                <div class="card mb-2" style="min-height: 80px; padding: 7px;">
+                    <app-header></app-header>
+                </div>
+                <div class="card mb-2" style="min-height: 830px;">
+                    <router-outlet></router-outlet>
+                </div> 
+                <div class="card ">
+                    footer
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
